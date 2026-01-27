@@ -1,0 +1,9 @@
+jax==0.5.3
+netket==3.17.1
+matplotlib==3.10.8
+pandas==2.3.3
+pynvml==13.0.1
+rich==14.2.0
+scipy==1.17.0
+tqdm==4.67.1
+ipykernel==7.0.1
