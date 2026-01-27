@@ -1,0 +1,7 @@
+tags
+"{""BC"": ""PBC"", ""J"": 1, ""L"": 64, ""n_dim"": 1}"
+"{""BC"": ""PBC"", ""J"": 1, ""L"": 64, ""n_chains"": 1024, ""n_dim"": 1, ""n_samples"": 4096}"
+"{""BC"": ""PBC"", ""J"": 1, ""L"": 64, ""n_chains"": 32768, ""n_dim"": 1, ""n_samples"": 131072}"
+"{""BC"": ""PBC"", ""J"": 1, ""L"": 64, ""n_chains"": 32768, ""n_dim"": 1, ""n_samples"": 131072, ""nk_exp"": true}"
+"{""BC"": ""PBC"", ""J"": 1, ""L"": 64, ""clipping"": true, ""n_chains"": 32768, ""n_dim"": 1, ""n_samples"": 131072}"
+"{""BC"": ""PBC"", ""J"": 1, ""L"": 64, ""n_chains"": 32768, ""n_dim"": 1, ""n_samples"": 131072}"
