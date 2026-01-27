@@ -1,6 +1,6 @@
 from pathlib import Path
 
-def find_project_root(target="mixed_precision_nqs", start_path=None):
+def find_project_root(target="Neural_Quantum_States_in_Mixed_Precision", start_path=None):
     """
     Returns the  '../' needed to reach the folder named `target`
     starting from `start_path` (default: current working directory).
