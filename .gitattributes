@@ -1,0 +1,2 @@
+Data/Gradients/MC/grad_Heisenberg_RBM_alpha1/1.csv filter=lfs diff=lfs merge=lfs -text
+Data/Gradients/MC/grad_TFIM_RBM_alpha1/1.csv filter=lfs diff=lfs merge=lfs -text
