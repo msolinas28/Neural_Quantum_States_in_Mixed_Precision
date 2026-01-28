@@ -15,15 +15,15 @@ pip install -r requirements.txt
 
 1. Execute sequentially all cells of the notebook [Paper/Reproduce/figure_1_a.ipynb](Paper/Reproduce/figure_1_a.ipynb)
 
-### Figure 2 Panel b
+### Figure 1 Panel b
 
 1. Use the following command to run the script and generate the figure
    ```bash
-   python Paper/Reproduce/figure_1_b.py --n_samples=2**18 --n=12 --n_seeds=10
+   python Paper/Reproduce/figure_1_b.py --n_samples=$((2**18)) --n=12 --n_seeds=10
    ```
    If this computation is too demanding, you can run the experiment using reduced parameter values:
    ```bash
-   python Paper/Reproduce/figure_1_b.py --n_samples=2**14 --n=4 --n_seeds=1
+   python Paper/Reproduce/figure_1_b.py --n_samples=$((2**14)) --n=4 --n_seeds=1
    ```
 
 ### Figure 1 Panel c
@@ -38,7 +38,7 @@ pip install -r requirements.txt
      python Script/LPSE/noisy_rbm_acceptance.py --L=16 --h=0.5
      ```
 2. The resulting data will be saved in `Data/LPSE/Noisy_rbm/Acceptance/`
-3. Open and run the notebook [Paper/Reproduce/figure_1_c.py](Paper/Reproduce/figure_1_c.py) to visualize the data
+3. Open and run the notebook [Paper/Reproduce/figure_1_c.ipynb](Paper/Reproduce/figure_1_c.ipynb) to visualize the data
 
 ### Figure 2
 
@@ -78,7 +78,7 @@ pip install -r requirements.txt
        --arch_params='{"n_res_blocks": 4, "filters": 16, "kernel_shape": (3,3), "upcast_sums": False}'
        --compute_sigma=True
    ```
-3. Open and run the notebook [Paper/Reproduce/figure_3.ipynb](Paper/Reproduce/figure_3.ipynb) to visualize the data
+2. Open and run the notebook [Paper/Reproduce/figure_3.ipynb](Paper/Reproduce/figure_3.ipynb) to visualize the data
 
 ### Figure 4
 
@@ -86,7 +86,7 @@ pip install -r requirements.txt
    ```bash
    python Script/GPU_test/linear_layer_grid.py
    ```
-3. Open and run the notebook [Paper/Reproduce/figure_4.ipynb](Paper/Reproduce/figure_4.ipynb)
+2. Open and run the notebook [Paper/Reproduce/figure_4.ipynb](Paper/Reproduce/figure_4.ipynb)
 
 Note: Results depend on the specific GPU used (this paper uses NVIDIA H100)
 

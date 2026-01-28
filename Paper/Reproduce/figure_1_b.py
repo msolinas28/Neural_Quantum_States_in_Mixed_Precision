@@ -392,9 +392,9 @@ def main(n, n_samples, n_seeds):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("n", default=4, type=int)
-    parser.add_argument("n_samples", default=2**14,type=int)
-    parser.add_argument("n_seeds", default=1, type=int)
+    parser.add_argument("--n", default=4, type=int)
+    parser.add_argument("--n_samples", default=2**14,type=int)
+    parser.add_argument("--n_seeds", default=1, type=int)
     args = parser.parse_args()
 
     main(n=args.n, n_samples=args.n_samples, n_seeds=args.n_seeds)
